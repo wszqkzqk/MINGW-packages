@@ -1,0 +1,8 @@
+--- a/cmake/modules/SIPMacros.cmake
++++ b/cmake/modules/SIPMacros.cmake
+@@ -154,4 +154,4 @@
+         if (QT_MAJOR_VERSION STREQUAL "6")
+-            set(abi_version "13.0")
++            set(abi_version "13.8")
+             set(sip_disabled_features "[\"Krita_Qt5\"]")
+         else()
